@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Gif Tastic</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+</head>
+
+<body>
+
+<div class="container">
+<div id="sportsButtons">
+
+<button class="btn btn-info sport" data-name="Hockey" style="margin: 5px;">Hockey</button>
+<button class="btn btn-info sport" data-name="Basketball" style="margin: 5px;">Basketball</button>
+<button class="btn btn-info sport" data-name="Baseball" style="margin: 5px;">Baseball</button>
+<button class="btn btn-info sport" data-name="Football" style="margin: 5px;">Football</button>
+<button class="btn btn-info sport" data-name="Soccer" style="margin: 5px;">Soccer</button>
+<button class="btn btn-info sport" data-name="Tennis" style="margin: 5px;">Tennis</button>
+<button class="btn btn-info sport" data-name="Water Polo" style="margin: 5px;">Water Polo</button>
+<button class="btn btn-info sport" data-name="Boxing" style="margin: 5px;">Boxing</button>
+<button class="btn btn-info sport" data-name="Rugby" style="margin: 5px;">Rugby</button>
+
+
+</div>
+
+</div>
+
+
+<div id="gifs" style="float:left"></div>
+
+
+<div style="float:right; margin-top:90px;">
+ <h4>Add a Sport or Player</h4>
+    <form id="gif-form">
+        <label for="gif-input"></label>
+        <input type="text" value="" id="gif-input"><br><br>
+
+        <input type="submit" name="Button" class="btn btn-success" id="addButton" style="margin-left:8px">
+    </form>
+</div>
+
+<script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
